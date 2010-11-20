@@ -1,0 +1,197 @@
+Name:,Nokia Keyboard,,,,v9.18,,,,,,,,CURRENT DATA
+Devices:,Manual Settings,8,,,,,,,,,,,
+Manual:,01FF,0 = 1-byte,MSB,48,NO,,,,,,,,
+Setup:,2001,99 = Comcast URC-1067B JP1.3,01 - Cable,OBC,USE,80,1,No,,,,,
+Comcast URC-1067B JP1.3 Device Upgrade Code:,,,,,,,,,,,,,
+Upgrade Code2 0 = 07 D1 (Cable/2001) Nokia Keyboard (KM v9.18),,,,,,,,,,,,,
+01 FF 00 82 E0 20 00 41 80 1E 15 16 17 18 19 1A 1B 1C 1D 5F 62 61 63 25 40,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Protocol Code: (Upgrade Req'd),,,,,,,,,,,,,
+Upgrade Protocol 0 = 01 FF (S3C8+) Custom Protocol for Cable/2001 Nokia Keyboard (KM v9.18),,,,,,,,,,,,,
+3F 97 11 8B 15 00 00 58 00 74 00 58 00 C6 00 C5 00 74 00 58 31 18 00 58 01 70 F6 FF 23 46 04 80 8D FF 23 1C 1A F6 01 4C 38 03 5C 02 F6 FF 48 38 04 5C 04 F6 FF 48 1C 1E F6 01 4C C6 F8 FE 08 F6 01 58 F6 01 0A 7B DC AF 1C 12 F6 01 4C 90 C3 90 C3 48 C3 56 C4 03 4E 8D FF 61 C6 F8 00 58 F6 01 58 4A F7 5A E3 AF,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,478,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+Esc,001,,0,21 - num 0,001 - key_esc,Protocol ID,Fixed Data,,,,,,1F
+F1,002,,1,12 - num 1,002 - key_f1,,,,,,,,15
+F2,003,,2,13 - num 2,003 - key_f2,,,,,,,,16
+F3,004,,3,14 - num 3,004 - key_f3,,,,,,,,17
+F4,005,,4,15 - num 4,005 - key_f4,,,,,,,,19
+F5,006,,5,16 - num 5,006 - key_f5,,,,,,,,1A
+F6,007,,6,17 - num 6,007 - key_f6,,,,,,,,1B
+F7,008,,7,18 - num 7,008 - key_f7,,,,,,,,1C
+F8,009,,8,19 - num 8,009 - key_f8,,,,,,,,1D
+F9,010,,9,20 - num 9,010 - key_f9,,,,,,,,1E
+F10,011,,vol up,,011 - key_f10,,,,,,,,04
+GRAVE,020,,vol down,,020 - key_grave,,,,,,,,05
+num 1,021,,mute,,021 - key_1,,,,,,,,33
+num 2,022,,channel up,,022 - key_2,,,,,,,,06
+num 3,023,,channel down,,023 - key_3,,,,,,,,07
+num 4,024,,power,,024 - key_4,,,,,,,,03
+num 5,025,,enter,,025 - key_5,,,,,,,,18
+num 6,026,,tv/video,,026 - key_6,,,,,,,,20
+num 7,027,,last,,027 - key_7,,,,,,,,08
+num 8,028,,menu,,028 - key_8,,,,,,,,2E
+num 9,029,,guide,,029 - key_9,,,,,,,,21
+num 0,030,,up arrow,76 - Up,030 - key_0,,,,,,,,29
+MINUS(-),031,,down arrow,79 - Down,031 - key_minus,,,,,,,,2A
+EQUAL(=),032,,left arrow,78 - Left,032 - key_equal,,,,,,,,2B
+Backspace,033,,right arrow,80 - Right,033 - key_backspace,,,,,,,,2C
+Tab,034,,ok/select,,034 - key_tab,,,,,,,,2D
+Q,035,,,,035 - key_q,,,,,,,,
+W,036,,pip,,036 - key_w,,,,,,,,25
+E,037,,info,,037 - key_e,,,,,,,,13
+R,038,,swap,,038 - key_r,,,,,,,,26
+T,039,,move,,039 - key_t,,,,,,,,27
+Y,040,,play,,040 - key_y,,,,,,,,0C
+U,041,,pause,,041 - key_u,,,,,,,,0F
+I,042,,rewind,,042 - key_i,,,,,,,,0B
+O,043,,fast fwd,,043 - key_o,,,,,,,,0D
+P,044,,stop,,044 - key_p,,,,,,,,0E
+LEFTBRACE[,045,,record,,045 - key_leftbrace,,,,,,,,10
+RIGHTBRACE],046,,exit,,046 - key_rightbrace,,,,,,,,14
+\,047,,,,047 - key_backslash,,,,,,,,
+CapsLock,048,,,,048 - key_capslock,,,,,,,,
+A,049,,,,049 - key_a,,,,,,,,
+S,050,,fav,,050 - key_s,,,,,,,,22
+D,051,,,,051 - key_d,,,,,,,,
+F \,052,,,,052 - key_f,,,,,,,,
+G,053,,,,053 - key_g,,,,,,,,
+H,054,,,,054 - key_h,,,,,,,,
+J,055,,,,055 - key_j,,,,,,,,
+K,056,,,,056 - key_k,,,,,,,,
+LEFTBRACE[,057,,,,057 - key_l,,,,,,,,
+Semicolon ;,058,,,,058 - key_semicolon,,,,,,,,
+Aoistrophe ',059,,,,059 - key_apostrophe,,,,,,,,
+Enter,060,,,,060 - key_enter,,,,,,,,
+Left Shift,061,,,,061 - key_leftshift,,,,,,,,
+Z,062,,,,062 - key_z,,,,,,,,
+X,063,,,,063 - key_x,,,,,,,,
+C,064,,phantom1,,064 - key_c,,,,,,,,3A
+V,065,,phantom2,,065 - key_v,,,,,,,,3B
+B,066,,phantom3,,066 - key_b,,,,,,,,3C
+N,067,,phantom4,,067 - key_n,,,,,,,,3D
+M,068,,phantom5,,068 - key_m,,,,,,,,3E
+"Comma ,",069,,phantom6,,069 - key_comma,,,,,,,,3F
+Dot .,070,,,,070 - key_dot,,,,,,,,
+Slash /,071,,,,071 - key_slash,,,,,,,,
+Right Shift,072,,,,072 - key_rightshift,,,,,,,,
+fn Down,073,,,,073 - key_fn_down,,,,,,,,
+Left Ctrl,074,,setup,,074 - key_leftctrl,,,,,,,,02
+Left Meta,075,,,,075 - key_leftmeta,,,,,,,,
+Left Alt,076,,my dvr,,076 - key_leftalt,,,,,,,,28
+SpaceBar,077,,all on,,077 - key_space,,,,,,,,36
+Right Alt,078,,,,078 - key_rightalt,,,,,,,,
+RightMeta,080,,,,080 - key_rightmeta,,,,,,,,
+sysRQ,082,,,,082 - key_sysrq,,,,,,,,
+Scroll LK,083,,,,083 - key_scrolllock,,,,,,,,
+Pause,084,,help,,084 - key_pause,,,,,,,,38
+Insert,085,,,,085 - key_insert,,,,,,,,
+Delete,086,,,,088 - key_delete,,,,,,,,
+Up,095,,pip channel up,,095 - key_up,,,,,,,,35
+key 102nd,096,,pip channel down,,096 - key_102nd,,,,,,,,39
+Left,097,,page up,28 - E,097 - key_left,,,,,,,,23
+Down,098,,page down,,098 - key_down,,,,,,,,24
+Right,099,,,,099 - key_right,,,,,,,,
+Numlock,100,,,,100 - key_numlock,,,,,,,,
+Btn Right,126,,A,,126 - key_btnright,,,,,,,,30
+Btn Left,127,,B,,127 - key_btnleft,,,,,,,,32
+Fn Up,201,,C,55 - C,201 - key_fn_up,,,,,,,,31
+,,,,42 - D,,,,,,,,,
+,,,on demand,,,,,,,,,,34
+,,,replay,,,,,,,,,,37
+,,,,,,,,,,,,,
+,,,live,,,,,,,,,,2F
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+Upgrade protocol 0 = 01 FF (HCS08) Nokia Like IR Keyboard (PB v4.01),,,,,,,,,,,,,
+ 20 17 24 4B 11 87 C4 80 04 04 08 00 52 00 8B 00 ,,,,,,,,,,,,,
+ 00 00 52 33 88 00 CF 00 8B 6E 12 B2 CD FF 5F 6E ,,,,,,,,,,,,,
+ 09 56 CD FF 92 24 0B 45 13 88 CD FF 74 3B 56 F2 ,,,,,,,,,,,,,
+ 20 EA 1E 61 CC FF 5F,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Upgrade protocol 0 = 01 FF (S3C8+) Nokia Like IR Keyboard (PB v4.01),,,,,,,,,,,,,
+ 3F 97 11 8B 15 00 00 58 00 74 00 58 00 C6 00 C5 ,,,,,,,,,,,,,
+ 00 74 00 58 31 18 00 58 01 70 F6 FF 23 46 04 80 ,,,,,,,,,,,,,
+ 8D FF 23 1C 1A F6 01 4C 38 03 5C 02 F6 FF 48 38 ,,,,,,,,,,,,,
+ 04 5C 04 F6 FF 48 1C 1E F6 01 4C C6 F8 FE 08 F6 ,,,,,,,,,,,,,
+ 01 58 F6 01 0A 7B DC AF 1C 12 F6 01 4C 90 C3 90 ,,,,,,,,,,,,,
+ C3 48 C3 56 C4 03 4E 8D FF 61 C6 F8 00 58 F6 01 ,,,,,,,,,,,,,
+ 58 4A F7 5A E3 AF,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE
