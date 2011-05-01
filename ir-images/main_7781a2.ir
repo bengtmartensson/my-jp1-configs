@@ -1,8 +1,8 @@
-F000:  31  31  33  41  31  31  33  41  E2  1D  65  67  06  14  02  DF
-F010:  24  5C  45  F5  75  2C  44  2D  74  D2  10  51  37  7B  B7  55
+F000:  31  31  33  41  31  31  33  41  40  BF  65  67  06  14  02  DF
+F010:  23  E7  45  F5  75  2C  44  2D  74  D2  10  51  37  7B  B7  55
 F020:  67  F2  FF  FF  04  44  00  00  00  00  00  01  0C  00  FF  FF
 F030:  FF  FF  FF  FF  FF  FF  FF  FF  52  45  43  56  54  56  FF  FF
-F040:  50  52  4F  4A  44  42  4F  58  4F  50  50  4F  41  53  55  53
+F040:  50  52  4F  4A  43  4F  4F  4C  4F  50  50  4F  41  53  55  53
 F050:  48  44  44  56  50  4F  50  43  56  43  52  FF  43  41  42  4C
 F060:  48  4F  4D  45  59  41  4D  41  FF  FF  FF  FF  41  4D  50  FF
 F070:  54  56  FF  FF  54  56  FF  FF  53  41  54  FF  44  56  44  FF
@@ -62,7 +62,7 @@ F3C0:  CD  FE  E5  96  02  04  C6  04  4F  07  51  02  BA  53  0E  51
 F3D0:  02  B8  53  32  02  04  AF  01  C7  04  4F  AD  0E  20  8B  8C
 F3E0:  BE  E8  58  B6  60  E7  BF  B6  61  E7  C0  18  B3  3A  B3  19
 F3F0:  B3  81  32  02  04  AF  02  F6  A0  02  B7  70  AF  03  20  DB
-F400:  D6  29  F6  FB  F7  49  01  80  00  01  01  81  00  01  01  FE
+F400:  3F  C0  F6  FF  F7  4D  01  80  00  01  01  81  00  01  01  FE
 F410:  00  01  01  FC  00  01  01  FB  00  01  01  F9  00  01  01  B5
 F420:  00  9E  FE  FE  4D  04  00  E0  D0  40  C0  20  A0  60  E0  10
 F430:  90  50  00  28  28  48  A8  C8  80  38  04  18  98  D8  58  84
@@ -86,37 +86,37 @@ F540:  5A  00  FC  00  60  F1  20  A1  5E  00  57  17  D5  FC  0F  E7
 F550:  97  D7  00  A7  27  C7  F7  77  07  55  96  15  C6  E6  66  35
 F560:  B5  00  E8  00  BE  1E  FE  E1  13  40  00  F9  F4  F8  F0  E8
 F570:  E0  EC  E5  E9  E1  72  F2  80  ED  B5  B1  C5  C1  FD  9A  5E
-F580:  5A  9E  A2  E4  BE  3E  3A  BA  00  00  ED  08  7E  EA  F6  9A
-F590:  E1  0D  40  15  16  0F  0C  0D  10  18  0C  0D  0B  0A  0E  1F
-F5A0:  17  13  11  12  14  0F  16  15  19  1A  1B  1C  1D  1E  00  5A
-F5B0:  00  BE  FE  FE  FD  00  6D  6D  DF  2F  1F  3F  AF  9F  BF  6F
-F5C0:  5F  7F  85  45  A7  95  D7  55  75  B5  27  35  FD  E7  F7  15
-F5D0:  0D  C7  C5  F5  D5  07  5D  47  05  77  DD  87  00  5A  00  1E
-F5E0:  FA  B4  FD  20  C9  E9  95  6D  45  5F  E7  E7  7D  17  DF  37
-F5F0:  67  5D  FD  D5  85  C5  E5  05  5D  DD  00  5A  17  3E  FE  FE
-F600:  1E  E1  20  FF  6D  77  57  FF  8F  77  57  B7  D7  37  8D  97
-F610:  BF  27  C7  47  A7  87  3D  0D  9D  6D  AD  7D  F7  0F  4D  4F
-F620:  20  04  00  00  02  00  CC  F0  B6  20  04  00  00  02  00  CC
-F630:  F3  8A  20  04  00  00  02  00  CC  F3  DF  20  04  00  00  02
-F640:  00  CC  F3  F2  20  04  00  00  02  00  AD  A1  B6  B5  4C  BE
-F650:  B6  CC  FF  9E  20  04  00  00  02  00  3F  30  32  02  04  AF
-F660:  02  F6  B7  70  AF  04  96  02  04  B6  B5  62  A4  0F  8C  97
-F670:  35  49  CD  19  13  B6  B5  A4  07  87  B7  54  06  B5  11  CD
-F680:  5E  ED  24  21  CD  19  23  24  F6  20  1F  CD  5E  ED  25  1A
-F690:  3F  48  14  14  12  14  C7  18  00  8F  C7  18  00  00  48  EB
-F6A0:  CD  19  23  24  F1  86  B7  70  20  16  86  B7  54  B6  70  B0
-F6B0:  54  A0  03  B7  70  32  02  04  B6  54  CD  FE  E5  96  02  04
-F6C0:  32  02  04  3F  30  CC  F3  DB  20  15  22  48  31  8F  45  08
-F6D0:  04  00  F9  02  E1  00  F9  00  F9  77  83  08  CE  08  C8  4E
-F6E0:  63  64  33  64  B6  62  62  B7  62  AE  04  39  64  39  63  39
-F6F0:  62  5B  F8  3C  A9  6E  11  7D  CC  FF  7A  00  13  07  08  17
-F700:  08  04  4D  04  4F  04  50  04  52  40  C7  65  67  06  14  02
-F710:  DF  44  AF  44  2D  74  D2  67  F2  B7  55  24  5C  45  F5  75
-F720:  2C  37  7B  F4  06  F4  0A  F4  0E  F4  12  F4  16  F4  1A  F4
-F730:  1E  F4  47  F4  8C  F4  AD  F4  C3  F4  EF  F5  10  F5  3F  F5
-F740:  61  F5  89  F5  AE  F5  DC  F5  FA  00  07  01  80  01  81  01
-F750:  FE  01  FC  01  FB  01  F9  01  B5  F6  20  F6  29  F6  32  F6
-F760:  3B  F6  44  F6  54  F6  C8  F6  CA  FF  FF  FF  FF  FF  FF  FF
+F580:  5A  9E  A2  E4  BE  3E  3A  BA  00  00  5A  00  BE  FE  FE  FD
+F590:  00  6D  6D  DF  2F  1F  3F  AF  9F  BF  6F  5F  7F  85  45  A7
+F5A0:  95  D7  55  75  B5  27  35  FD  E7  F7  15  0D  C7  C5  F5  D5
+F5B0:  07  5D  47  05  77  DD  87  00  5A  00  1E  FA  B4  FD  20  C9
+F5C0:  E9  95  6D  45  5F  E7  E7  7D  17  DF  37  67  5D  FD  D5  85
+F5D0:  C5  E5  05  5D  DD  00  5A  17  3E  FE  FE  1E  E1  20  FF  6D
+F5E0:  77  57  FF  8F  77  57  B7  D7  37  8D  97  BF  27  C7  47  A7
+F5F0:  87  3D  0D  9D  6D  AD  7D  F7  0F  4D  4F  00  5A  0A  3E  EE
+F600:  FE  FE  F1  20  FE  00  CD  1F  AF  A7  FF  7F  3F  BF  07  C7
+F610:  47  2F  5F  6F  BD  3D  9D  7D  DD  5D  1D  65  CD  1F  27  DF
+F620:  6D  CF  85  8B  20  04  00  00  02  00  CC  F0  B6  20  04  00
+F630:  00  02  00  CC  F3  8A  20  04  00  00  02  00  CC  F3  DF  20
+F640:  04  00  00  02  00  CC  F3  F2  20  04  00  00  02  00  AD  A1
+F650:  B6  B5  4C  BE  B6  CC  FF  9E  20  04  00  00  02  00  3F  30
+F660:  32  02  04  AF  02  F6  B7  70  AF  04  96  02  04  B6  B5  62
+F670:  A4  0F  8C  97  35  49  CD  19  13  B6  B5  A4  07  87  B7  54
+F680:  06  B5  11  CD  5E  ED  24  21  CD  19  23  24  F6  20  1F  CD
+F690:  5E  ED  25  1A  3F  48  14  14  12  14  C7  18  00  8F  C7  18
+F6A0:  00  00  48  EB  CD  19  23  24  F1  86  B7  70  20  16  86  B7
+F6B0:  54  B6  70  B0  54  A0  03  B7  70  32  02  04  B6  54  CD  FE
+F6C0:  E5  96  02  04  32  02  04  3F  30  CC  F3  DB  20  15  22  48
+F6D0:  31  8F  45  08  04  00  F9  02  E1  00  F9  00  F9  77  83  08
+F6E0:  CE  08  C8  4E  63  64  33  64  B6  62  62  B7  62  AE  04  39
+F6F0:  64  39  63  39  62  5B  F8  3C  A9  6E  11  7D  CC  FF  7A  00
+F700:  13  07  08  17  08  04  4D  04  4F  04  50  04  52  40  C7  65
+F710:  67  06  14  02  DF  44  AF  44  2D  74  D2  67  F2  B7  55  45
+F720:  F5  75  2C  37  7B  23  E7  F4  06  F4  0A  F4  0E  F4  12  F4
+F730:  16  F4  1A  F4  1E  F4  47  F4  8C  F4  AD  F4  C3  F4  EF  F5
+F740:  10  F5  3F  F5  61  F5  89  F5  B7  F5  D5  F5  FB  00  07  01
+F750:  80  01  81  01  FE  01  FC  01  FB  01  F9  01  B5  F6  24  F6
+F760:  2D  F6  36  F6  3F  F6  48  F6  58  F6  CC  CD  FF  FF  FF  FF
 F770:  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF
 F780:  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF
 F790:  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF
@@ -163,13 +163,13 @@ FA10:  75  2C  A5  E7  84  15  04  75  2C  27  FB  85  15  04  75  2C
 FA20:  CD  24  13  15  03  65  67  17  30  17  04  74  D2  25  EB  13
 FA30:  14  03  65  67  16  88  19  04  37  7B  E7  F5  A8  19  04  37
 FA40:  7B  BD  A7  84  19  04  37  7B  07  FA  85  19  04  37  7B  FD
-FA50:  A5  13  19  03  65  67  1D  F5  8F  01  4D  FF  1A  04  B7  55
-FA60:  F5  65  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF
-FA70:  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF
-FA80:  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF
-FA90:  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF
-FAA0:  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF
-FAB0:  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF
+FA50:  A5  13  19  03  65  67  1D  F5  8F  01  4D  88  13  04  23  E7
+FA60:  4F  38  98  13  04  23  E7  A5  E7  A2  13  04  23  E7  FD  A5
+FA70:  A1  13  04  23  E7  87  F6  AC  13  04  23  E7  0F  3A  8B  13
+FA80:  04  23  E7  9F  B6  AD  13  04  23  E7  0B  5A  AE  13  04  23
+FA90:  E7  03  1A  AF  13  04  23  E7  83  16  B0  13  04  23  E7  C3
+FAA0:  14  84  13  04  23  E7  8F  36  85  13  04  23  E7  ED  25  A9
+FAB0:  13  04  23  E7  05  EA  A0  13  04  23  E7  FD  A5  FF  FF  FF
 FAC0:  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF
 FAD0:  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF
 FAE0:  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF
@@ -190,3 +190,20 @@ FBC0:  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF
 FBD0:  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF
 FBE0:  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF  FF
 FBF0:  FF  FF  FF  FF  FF  FF  31  31  33  54  F0  B6  04  FF  FF  FF
+
+[Notes]
+$105E=mute_toggle
+$105F=aspectratio_for_4_3
+$1060=resolution
+$1061=epg
+$1062=0x0f
+$1063=teletext
+$1064=0x2f
+$1065=0x3f
+$1066=0x3e
+$1067=0x3c
+$1068=volume_up
+$1069=volume_down
+$106A=aspectratio
+$106B=resolution
+$3012=coolstream_neo (RM v2.00-preview8)
