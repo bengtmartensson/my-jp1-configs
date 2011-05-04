@@ -1,0 +1,15 @@
+Description=null
+Remote.name=URC-7781 Extender A2
+Remote.signature=113A113A
+DeviceType=Misc Audio
+DeviceIndex=7
+SetupCode=0
+Protocol=00 5A
+Protocol.name=NEC1
+ProtocolParms=108 104 null
+FixedData=20 C9 E9
+Notes=Created by Harc version 0.5.0
+Function.0.name=volume_up
+Function.0.hex=27
+Function.1.name=volume_down
+Function.1.hex=CD
