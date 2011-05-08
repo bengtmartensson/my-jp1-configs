@@ -1,77 +1,64 @@
 [General]
-Name=URC-7780 Extender A2
+Name=URC-7780 One For All Stealth 12
 EepromSize=$1000
-AdvCodeAddr=$801..$FF5
+AdvCodeAddr=$0AD..$3FF
 UpgradeAddr=$402..$7FF
+LearnedAddr=$800..$FFF
 Processor=HCS08
 BaseAddr=$EC00
 RAMAddr=$FF00
 RDFSync=3
-WAVUpgrade=0
+WAVUpgrade=1
 AdvCodeFormat=HEX
 AdvCodeBindFormat=LONG
 SectionTerminator=$FF
 EFCDigits=5
 LearnedDevBtnSwapped=Yes
-ImageMap=URC-7780.map
-Shift=$80, Shift
-XShift=$C0, XShift
 Labels+=$038,4,$FF,$06C
 SoftDev=Y,Y,$2C,$0A0
-StartReadOnlySettings=10
-PauseParams=Pause,2/B,1000
-TimeAddr+=$FFD,BCD24
-RDFVersionAddr=$FFC
-ExtenderVersionAddr=$03,Asc,$B5
-SetupValidation=Warn
-
-[Extender]
-OEMSignature=10621062
-
-[SpecialProtocols+]
-DSM=Internal:0(DSM1)
-DSM=01FC(DSM2)
-LDKP=01F9
-Multiplex=01FE
-Pause=01FB
-ToadTog=0181
+SoftHT=Y,15,$3F3
+MacroCodingType=2,Y,$02D
+StartReadOnlySettings=27
+SetupValidation=Enforce
+ImageMap=URC-7780.map
 
 [SpecialProtocols]
-DSM=01FC
-LDKP=01F9
-Multiplex=01FE
-Pause=01FB
-ToadTog=0181
+Pause=01FB (Pause)
 
 [Settings]
-Shift Key=$02C2.7.8.2.0 
-Alt Shift Key=$02C5.7.8.130.0 
-Alt Shift=$02C9.7.2.0.1 (XShift;Shift)
-Timed TogBits=$01DD.7.8.0.0
-Macro Delay Hi=$0351.7.8.127.0
-Macro Delay Lo=$0354.7.8.127.0
-VPT Device=$028.7.8.0.0 DeviceButtons
+HT Power Dev=$02E.7.8.13.0 DeviceButtons
+HT Digits Dev=$02F.7.8.13.0 DeviceButtons
+HT Channel Dev=$030.7.8.13.0 DeviceButtons
+HT Volume Dev=$031.7.8.13.0 DeviceButtons
+HT Menu Dev=$032.7.8.13.0 DeviceButtons
+HT Guide Dev=$033.7.8.13.0 DeviceButtons
+HT 16/9 Dev=$034.7.8.13.0 DeviceButtons
+HT Transport Dev=$035.7.8.13.0 DeviceButtons
+HT FasText Dev=$036.7.8.13.0 DeviceButtons
+HT ABCD Dev=$037.7.8.13.0 DeviceButtons
+VPT Device=$028.7.8.13.0 DeviceButtons
 VPT Status=$024.2.1.0.0 (Off;On)
+1st Dev uses VPT=$029.0.1.0.0 (No;Yes)
+2nd Dev uses VPT=$029.1.1.0.0 (No;Yes)
+3rd Dev uses VPT=$029.2.1.0.0 (No;Yes)
+4th Dev uses VPT=$029.3.1.0.0 (No;Yes)
+5th Dev uses VPT=$029.4.1.0.0 (No;Yes)
+6th Dev uses VPT=$029.5.1.0.0 (No;Yes)
+7th Dev uses VPT=$029.6.1.0.0 (No;Yes)
+8th Dev uses VPT=$029.7.1.0.0 (No;Yes)
+9th Dev uses VPT=$02A.0.1.0.0 (No;Yes)
+10th Dev uses VPT=$02A.1.1.0.0 (No;Yes)
+11th Dev uses VPT=$02A.2.1.0.0 (No;Yes)
+12th Dev uses VPT=$02A.3.1.0.0 (No;Yes)
+13th Dev uses VPT=$02A.4.1.0.0 (No;Yes)
 1-English 2-German 4-French=$02B.2.3.1.0
 AP Setting=$025.6.7.64.0
 ID Lock Devs 1-7=$026.7.8.0.0
 ID Lock Devs 8-12=$027.3.4.0.0
-RTI Count=$02D.7.8.0.0
 
 [Checksums]
 ^$008:$00A..$0AC
 ^$400:$402..$7FF
-
-[FixedData]
-$0B5=$02
-$0B8=$A6
-$0D1=$9D, $9D
-$1A4=$A1, $01, $26, $46, $B6, $F4, $B7, $F7
-$1AC=$CD, $5F, $54, $24, $0E, $CC, $1E, $57
-$1B4=$45, $FB, $F5, $35, $6C, $45, $F4, $00
-$1BC=$35, $6A, $81
-$31F=$ED, $B4
-$FF6=$31, $30, $36, $54, $EC, $B6
 
 [DeviceTypes]
 TV      = 0
@@ -89,6 +76,8 @@ HOM     = $B
 LDP     = $C
 VAC     = $D
 PHO     = $E
+HT      = $F
+
 
 [DeviceTypeAliases]
 TV      = TV
@@ -106,7 +95,7 @@ HOM     = Home Auto
 LDP     = Laserdisc
 VAC     = Video Acc
 PHO     = Phono
-
+HT      = OEM Mode
 
 [DeviceButtons]
 Dev1     = $00A $00B
@@ -121,8 +110,10 @@ Dev9      = $01A $01B
 Dev10     = $01C $01D
 Dev11     = $01E $01F
 Dev12     = $020 $021
+Dev13     = $022 $023
 
 [Buttons]
+light:Light/ESC=$01,
 Magic=$02,
 Power=$03,
 "vol up":Vol+=$04,
@@ -139,11 +130,6 @@ Stop=$0E,
 Pause=$0F,
 record:Rec=$10,
 LCDEnter=$13,
-Phantom1=$11,
-Phantom2=$12,
-Phantom3=$00,
-T-Shift=$7A:AllBind,
-Null=$7F:AllBind,
 1=$15,
 2=$16,
 3=$17,
@@ -161,7 +147,6 @@ Guide=$21,
 Menu=$28,
 enter:OK=$14,
 Exit=$23,
-light:LightTog=$01,
 "up arrow":Up=$24,
 "down arrow":Down=$25,
 "left arrow":Left=$26,
@@ -179,31 +164,19 @@ Color+=$84,
 Color-=$85,
 Brightness+=$86,
 Brightness-=$87,
-Dev1=$F1,
-Dev2=$F2,
-Dev3=$F3,
-Dev4=$F4,
-Dev5=$F5,
-Dev6=$F6,
-Dev7=$F7,
-Dev8=$F8,
-Dev9=$F9,
-Dev10=$FA,
-Dev11=$FB,
-Dev12=$FC,
-C_DEV1=$31:AllBind, T_DEV1, V_DEV1, M_DEV1, A_DEV1, X_DEV1,
-C_DEV2=$37:AllBind, T_DEV2, V_DEV2, M_DEV2, A_DEV2, X_DEV2,
-C_DEV3=$3D:AllBind, T_DEV3, V_DEV3, M_DEV3, A_DEV3, X_DEV3,
-C_DEV4=$43:AllBind, T_DEV4, V_DEV4, M_DEV4, A_DEV4, X_DEV4,
-C_DEV5=$49:AllBind, T_DEV5, V_DEV5, M_DEV5, A_DEV5, X_DEV5,
-C_DEV6=$4F:AllBind, T_DEV6, V_DEV6, M_DEV6, A_DEV6, X_DEV6,
-C_DEV7=$55:AllBind, T_DEV7, V_DEV7, M_DEV7, A_DEV7, X_DEV7,
-C_DEV8=$5B:AllBind, T_DEV8, V_DEV8, M_DEV8, A_DEV8, X_DEV8,
-C_DEV9=$61:AllBind, T_DEV9, V_DEV9, M_DEV9, A_DEV9, X_DEV9,
-C_DEV10=$67:AllBind, T_DEV10, V_DEV10, M_DEV10, A_DEV10, X_DEV10,
-C_DEV11=$6D:AllBind, T_DEV11, V_DEV11, M_DEV11, A_DEV11, X_DEV11,
-C_DEV12=$73:AllBind, T_DEV12, V_DEV12, M_DEV12, A_DEV12, X_DEV12,
-X_CANCEL=$79:AllBind
+Dev1=$F0,
+Dev2=$F1,
+Dev3=$F2
+Dev4=$F3,
+Dev5=$F4,
+Dev6=$F5,
+Dev7=$F6,
+Dev8=$F7,
+Dev9=$F8,
+Dev10=$F9,
+Dev11=$FA,
+Dev12=$FB,
+Dev13=$FC
 
 
 [ButtonMaps]
