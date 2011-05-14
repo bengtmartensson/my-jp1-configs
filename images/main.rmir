@@ -4,17 +4,17 @@ Remote.signature=113A113A
 Notes=
 
 [Buffer]
-F000=31 31 33 41 31 31 33 41 D7 28 65 1F 06 14 02 DF
-F010=23 E7 45 F5 75 2C 44 2D FF FF 10 51 61 37 B7 55
-F020=FF FF FF FF 04 44 00 00 00 00 00 01 0A 00 FF FF
+F000=31 31 33 41 31 31 33 41 A4 5B 65 1F 06 14 02 DF
+F010=23 E7 45 F5 75 2C 44 2D 67 F2 10 51 61 37 B7 55
+F020=FF FF FF FF 04 44 00 00 00 00 00 01 0B 00 FF FF
 F030=FF FF FF FF FF FF FF FF 52 45 43 56 54 56 FF FF
 F040=50 52 4F 4A 43 4F 4F 4C 4F 50 50 4F 48 44 32 FF
-F050=48 44 44 56 4D 49 53 FF 56 43 52 FF 4B 41 53 45
+F050=48 44 44 56 59 41 4D 41 56 43 52 FF 4B 41 53 45
 F060=48 4F 4D 45 41 4D 50 FF FF FF FF FF 41 4D 50 FF
 F070=54 56 FF FF 54 56 FF FF 53 41 54 FF 44 56 44 FF
-F080=4D 49 53 FF 44 56 44 FF FF FF FF FF 56 43 52 FF
+F080=4D 49 53 FF 44 56 44 FF 41 4D 50 FF 56 43 52 FF
 F090=41 4D 50 FF 48 4F 4D FF FF FF FF FF FF FF FF FF
-F0A0=00 01 02 03 04 06 08 0A 05 09 FF FF FF 10 10 04
+F0A0=00 01 02 03 04 06 08 0A 05 09 07 FF FF 10 10 04
 F0B0=07 08 31 00 FF 02 CD 1F AC A6 41 C7 02 13 C7 02
 F0C0=17 45 F0 00 CF 04 4F 96 02 02 CD 1F F2 A6 F1 B7
 F0D0=F4 9D 9D 6E 1F B3 A6 FF C7 04 4E CD 88 4C CD 20
@@ -68,7 +68,7 @@ F3C0=CD FE E5 96 02 04 C6 04 4F 07 51 02 BA 53 0E 51
 F3D0=02 B8 53 32 02 04 AF 01 C7 04 4F AD 0E 20 8B 8C
 F3E0=BE E8 58 B6 60 E7 BF B6 61 E7 C0 18 B3 3A B3 19
 F3F0=B3 81 32 02 04 AF 02 F6 A0 02 B7 70 AF 03 20 DB
-F400=28 D7 F6 66 F6 A8 01 80 00 01 01 81 00 01 01 FE
+F400=98 67 F6 86 F6 CC 01 80 00 01 01 81 00 01 01 FE
 F410=00 01 01 FC 00 01 01 FB 00 01 01 F9 00 01 00 9C
 F420=00 FE C2 A6 FB B8 DC B8 EC B8 6C B8 4C 00 00 B8
 F430=AC B8 38 B8 8C B8 CC B8 3C B8 70 B8 B0 B8 F0 C8
@@ -95,26 +95,26 @@ F570=BD 3D 9D 7D DD 5D 1D 65 1F CD 27 DF 6D CF 85 8B
 F580=00 CD 00 D0 00 31 D5 B3 FD 00 00 00 00 00 00 00
 F590=00 74 CB 00 00 00 00 00 00 00 00 00 00 00 00 00
 F5A0=00 5B 17 55 FF 73 BF 7B BF 00 5A 00 10 1E 08 9F
-F5B0=20 33 FF FF CE 4E 87 47 C7 97 0F B7 BE FA 20 04
-F5C0=00 00 02 00 CC F0 B6 20 04 00 00 02 00 CC F3 8A
-F5D0=20 04 00 00 02 00 CC F3 DF 20 04 00 00 02 00 CC
-F5E0=F3 F2 20 04 00 00 02 00 AD A1 B6 B5 4C BE B6 CC
-F5F0=FF 9E 20 04 00 00 02 00 3F 30 32 02 04 AF 02 F6
-F600=B7 70 AF 04 96 02 04 B6 B5 62 A4 0F 8C 97 35 49
-F610=CD 19 13 B6 B5 A4 07 87 B7 54 06 B5 11 CD 5E ED
-F620=24 21 CD 19 23 24 F6 20 1F CD 5E ED 25 1A 3F 48
-F630=14 14 12 14 C7 18 00 8F C7 18 00 00 48 EB CD 19
-F640=23 24 F1 86 B7 70 20 16 86 B7 54 B6 70 B0 54 A0
-F650=03 B7 70 32 02 04 B6 54 CD FE E5 96 02 04 32 02
-F660=04 3F 30 CC F3 DB 00 10 07 08 17 08 04 4D 04 4F
-F670=04 50 04 52 65 1F 06 14 44 AF 44 2D B7 55 45 F5
-F680=75 2C 23 E7 61 37 02 DF F4 06 F4 0A F4 0E F4 12
-F690=F4 16 F4 1A F4 1E F4 65 F4 86 F4 B2 F4 D4 F4 FD
-F6A0=F5 2B F5 57 F5 80 F5 A9 00 06 01 80 01 81 01 FE
-F6B0=01 FC 01 FB 01 F9 F5 BE F5 C7 F5 D0 F5 D9 F5 E2
-F6C0=F5 F2 DA F5 E3 F5 F3 F4 17 08 04 4D 04 4F 04 50
-F6D0=04 52 40 C7 65 1F 06 14 02 DF 44 AF 44 2D 67 F2
-F6E0=B7 55 45 F5 75 2C 23 E7 61 37 F4 06 F4 0A F4 0E
+F5B0=20 33 FF FF CE 4E 87 47 C7 97 0F B7 BE FA 00 5A
+F5C0=00 F4 00 20 F1 20 A1 5E 00 17 D5 FC 57 0F E7 97
+F5D0=D7 55 A7 27 C7 F7 77 07 96 C6 E6 66 35 B5 20 04
+F5E0=00 00 02 00 CC F0 B6 20 04 00 00 02 00 CC F3 8A
+F5F0=20 04 00 00 02 00 CC F3 DF 20 04 00 00 02 00 CC
+F600=F3 F2 20 04 00 00 02 00 AD A1 B6 B5 4C BE B6 CC
+F610=FF 9E 20 04 00 00 02 00 3F 30 32 02 04 AF 02 F6
+F620=B7 70 AF 04 96 02 04 B6 B5 62 A4 0F 8C 97 35 49
+F630=CD 19 13 B6 B5 A4 07 87 B7 54 06 B5 11 CD 5E ED
+F640=24 21 CD 19 23 24 F6 20 1F CD 5E ED 25 1A 3F 48
+F650=14 14 12 14 C7 18 00 8F C7 18 00 00 48 EB CD 19
+F660=23 24 F1 86 B7 70 20 16 86 B7 54 B6 70 B0 54 A0
+F670=03 B7 70 32 02 04 B6 54 CD FE E5 96 02 04 32 02
+F680=04 3F 30 CC F3 DB 00 11 07 08 17 08 04 4D 04 4F
+F690=04 50 04 52 65 1F 06 14 44 AF 44 2D B7 55 45 F5
+F6A0=75 2C 23 E7 61 37 02 DF 67 F2 F4 06 F4 0A F4 0E
+F6B0=F4 12 F4 16 F4 1A F4 1E F4 65 F4 86 F4 B2 F4 D4
+F6C0=F4 FD F5 2B F5 57 F5 80 F5 A9 F5 BE 00 06 01 80
+F6D0=01 81 01 FE 01 FC 01 FB 01 F9 F5 DE F5 E7 F5 F0
+F6E0=F5 F9 F6 02 F6 12 23 E7 61 37 F4 06 F4 0A F4 0E
 F6F0=F4 12 F4 16 F4 1A F4 1E F4 47 F4 8A F4 AB F4 C1
 F700=F4 ED F5 0E F5 30 F5 58 F5 86 F5 B2 F5 DC 00 07
 F710=01 80 01 81 01 FE 01 FC 01 FB 01 F9 01 B5 F5 E9
@@ -174,13 +174,13 @@ FA60=23 E7 8F 36 85 13 04 23 E7 ED 25 15 19 04 65 1F
 FA70=B8 35 1A 19 04 65 1F B8 0D 04 19 04 65 1F B8 99
 FA80=05 19 04 65 1F B8 59 2D 19 04 61 37 7A 8B 2E 19
 FA90=04 61 37 72 8B 0F 12 04 02 DF 3D AB 09 12 04 02
-FAA0=DF 13 9A 95 8F 01 F4 97 8F 01 F8 9A 8F 01 F5 9B
-FAB0=8F 01 F7 96 8F 01 F6 9C 8F 01 F9 99 8F 01 FA 9D
+FAA0=DF 13 9A 95 8F 01 F4 96 8F 01 F6 97 8F 01 F8 9A
+FAB0=8F 01 F5 9B 8F 01 F7 9C 8F 01 F9 99 8F 01 FA 9D
 FAC0=8F 01 F1 9E 8F 01 F2 9F 8F 01 F3 A0 8F 01 FB A2
 FAD0=8F 01 FC F2 8F 01 3B F3 8F 01 41 F4 8F 01 47 F5
-FAE0=8F 01 4D F6 8F 01 53 F7 8F 01 59 F9 8F 01 65 FA
-FAF0=8F 02 6B 69 FB 8F 01 71 FC 8F 01 77 FF 01 71 FC
-FB00=8F 01 77 FF FF FF FF FF FF FF FF FF FF FF FF FF
+FAE0=8F 01 4D F6 8F 01 53 F7 8F 01 59 F8 8F 01 5D F9
+FAF0=8F 01 65 FA 8F 02 6B 69 FB 8F 01 71 FC 8F 01 77
+FB00=FF 01 77 FF FF FF FF FF FF FF FF FF FF FF FF FF
 FB10=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
 FB20=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
 FB30=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
@@ -308,90 +308,117 @@ Data=65 1F 1D
 [Macro]
 KeyCode=149
 Data=F4
-
-[Macro]
-KeyCode=151
-Data=F8
-
-[Macro]
-KeyCode=154
-Data=F5
-
-[Macro]
-KeyCode=155
-Data=F7
+Notes=Coolstream
 
 [Macro]
 KeyCode=150
 Data=F6
+Notes=Player
+
+[Macro]
+KeyCode=151
+Data=F8
+Notes=Yamaha
+
+[Macro]
+KeyCode=154
+Data=F5
+Notes=Oppo
+
+[Macro]
+KeyCode=155
+Data=F7
+Notes=HDDVD
 
 [Macro]
 KeyCode=156
 Data=F9
+Notes=VCR
 
 [Macro]
 KeyCode=153
 Data=FA
+Notes=Kaseiko
 
 [Macro]
 KeyCode=157
 Data=F1
+Notes=Denon
 
 [Macro]
 KeyCode=158
 Data=F2
+Notes=TV
 
 [Macro]
 KeyCode=159
 Data=F3
+Notes=Projektor
 
 [Macro]
 KeyCode=160
 Data=FB
+Notes=Home
 
 [Macro]
 KeyCode=162
 Data=FC
+Notes=presently unused
 
 [Macro]
 KeyCode=242
 Data=3B
+Notes=TV
 
 [Macro]
 KeyCode=243
 Data=41
+Notes=Projektor
 
 [Macro]
 KeyCode=244
 Data=47
+Notes=Coolstream
 
 [Macro]
 KeyCode=245
 Data=4D
+Notes=Oppo
 
 [Macro]
 KeyCode=246
 Data=53
+Notes=Player
 
 [Macro]
 KeyCode=247
 Data=59
+Notes=Hddvd
+
+[Macro]
+KeyCode=248
+Data=5D
+Notes=Desk Yamaha, Disable VPT
 
 [Macro]
 KeyCode=249
 Data=65
+Notes=VCR
 
 [Macro]
 KeyCode=250
 Data=6B 69
+Notes=Kaseiko, Zone-3 Volume thus no VPT
 
 [Macro]
 KeyCode=251
 Data=71
+Notes=Home
 
 [Macro]
 KeyCode=252
 Data=77
+Notes=unused
 
 [DeviceUpgrade]
 Remote.name=URC-7781 Extender A2
@@ -1991,3 +2018,149 @@ Button.21=info|null|null
 Button.f=freeze_toggle|null|null
 Button.9=in_hdmi1|null|null
 Button.83=power_on|null|null
+
+[DeviceUpgrade]
+Description=Yamaha RX-V 596 Receiver
+Remote.name=URC-7781 Extender A2
+Remote.signature=113A113A
+DeviceType=Amp
+DeviceIndex=6
+SetupCode=2034
+Protocol=00 5A
+Protocol.name=NEC1
+ProtocolParms=122 133 null
+FixedData=20 A1 5E
+Notes=Created by Harc version 0.1.0
+Function.0.name=in_phono
+Function.0.hex=D7
+Function.1.name=in_cd
+Function.1.hex=57
+Function.2.name=in_tuner
+Function.2.hex=97
+Function.3.name=in_tape_mon
+Function.3.hex=E7
+Function.4.name=in_dvd
+Function.4.hex=17
+Function.5.name=in_dtv
+Function.5.hex=D5
+Function.6.name=in_cable
+Function.6.hex=FC
+Function.7.name=in_vcr
+Function.7.hex=0F
+Function.8.name=in_video_aux
+Function.8.hex=55
+Function.9.name=volume_up
+Function.9.hex=A7
+Function.10.name=volume_down
+Function.10.hex=27
+Function.11.name=power_on
+Function.11.hex=47
+Function.12.name=power_off
+Function.12.hex=87
+Function.13.name=power_toggle
+Function.13.hex=07
+Function.14.name=mute_toggle
+Function.14.hex=C7
+Function.15.name=ext_input_toggle
+Function.15.hex=1E
+Function.16.name=osd
+Function.16.hex=BC
+Function.17.name=sleep
+Function.17.hex=15
+Function.18.name=menu
+Function.18.hex=C6
+Function.19.name=stereo
+Function.19.hex=EE
+Function.20.name=hall
+Function.20.hex=6E
+Function.21.name=jazz_club
+Function.21.hex=AE
+Function.22.name=rock_concert
+Function.22.hex=2E
+Function.23.name=entertainment
+Function.23.hex=CE
+Function.24.name=music_video
+Function.24.hex=4E
+Function.25.name=tv_theatre
+Function.25.hex=8E
+Function.26.name=movie_theatre
+Function.26.hex=0E
+Function.27.name=thx
+Function.27.hex=F6
+Function.28.name=dolby_dts
+Function.28.hex=76
+Function.29.name=ok
+Function.29.hex=96
+Function.30.name=night_toggle
+Function.30.hex=56
+Function.31.name=ex_es
+Function.31.hex=16
+Function.32.name=effect_toggle
+Function.32.hex=95
+Function.33.name=effect_level_select
+Function.33.hex=9E
+Function.34.name=test_mode
+Function.34.hex=5E
+Function.35.name=up
+Function.35.hex=E6
+Function.36.name=down
+Function.36.hex=66
+Function.37.name=plus
+Function.37.hex=B5
+Function.38.name=minus
+Function.38.hex=35
+Function.39.name=preset_page_toggle
+Function.39.hex=B7
+Function.40.name=channel_up
+Function.40.hex=F7
+Function.41.name=channel_down
+Function.41.hex=77
+Function.42.name=service_menu
+Function.42.hex=04
+Function.43.name=page_a
+Function.43.hex=F8
+Function.44.name=page_b
+Function.44.hex=78
+Function.45.name=page_c
+Function.45.hex=B8
+Function.46.name=page_d
+Function.46.hex=38
+Function.47.name=page_e
+Function.47.hex=D8
+Function.48.name=1
+Function.48.hex=58
+Function.49.name=2
+Function.49.hex=98
+Function.50.name=3
+Function.50.hex=18
+Function.51.name=4
+Function.51.hex=E8
+Function.52.name=5
+Function.52.hex=68
+Function.53.name=6
+Function.53.hex=A8
+Function.54.name=7
+Function.54.hex=28
+Function.55.name=8
+Function.55.hex=C8
+Button.15=in_dvd|null|null
+Button.16=in_dtv|null|null
+Button.17=in_cable|null|null
+Button.19=in_cd|null|null
+Button.1a=in_vcr|null|null
+Button.1b=in_tape_mon|null|null
+Button.1c=in_tuner|null|null
+Button.1d=in_phono|null|null
+Button.1e=in_video_aux|null|null
+Button.4=volume_up|null|null
+Button.5=volume_down|null|null
+Button.8=mute_toggle|null|null
+Button.6=channel_up|null|null
+Button.7=channel_down|null|null
+Button.3=power_toggle|null|null
+Button.28=menu|null|null
+Button.24=up|null|null
+Button.25=down|null|null
+Button.26=minus|null|null
+Button.27=plus|null|null
+Button.14=ok|null|null
