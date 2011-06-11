@@ -28,6 +28,8 @@ public class IRP {
     String protocolname;
     String filename;
     
+    int sizeIntro;
+    
     final static String version_string = "0.0.0";
     final static String license_string = "This is free software";
     
@@ -44,18 +46,15 @@ public class IRP {
     String m_suffix;
     String m_rPrefix;
     String m_rSuffix;
-    boolean m_msb = false;
+    BitDirection m_msb = BitDirection.lsb;
     HashMap<Character, String> m_def = new HashMap<Character, String>(26);
     HashMap<Character, Integer> m_value = new HashMap<Character, Integer>(26);
     String m_form;
-    ////int m_numberFormat;
     int[] m_device = {-1, -1, -1};
-    //////////int[] m_function = {0, 0};
     int[] m_functions = {-1, -1, -1, -1};
     double m_cumulative;
     ArrayList<Double> m_hex = new ArrayList<Double>(100);
-    /////String m_bufr; // char[1000]
-    /////String m_next;
+
     int[] m_mask = new int[33];
     int m_bitGroup = 2;
     int m_pendingBits;
@@ -88,6 +87,7 @@ public class IRP {
         s += stringify(m_device, "m_device") + "\n";
         s += "m_def: " + m_def.toString() + "\n";
         s += "m_value: " + m_value + "\n";
+        s += "m_msb: " + m_msb + "\n";
         s += "m_form: " + m_form;
         return s;
     }
@@ -270,7 +270,7 @@ public class IRP {
             break;
         }
         if (debug_parseVal)
-            System.out.println("parseVal returns: " + result + "in = " + in);
+            System.out.println(" parseVal returns: " + result + "in = " + in);
         return true;
     }
     
@@ -283,7 +283,7 @@ public class IRP {
             System.out.println("genHex called with `" + Pattern + "'.");
         int Result = -1;
         if (Pattern.charAt(0) == ';') {
-            Result = 0;         // Single section is empty
+            Result = 0;         // intro sequence is empty
             Pattern.deleteCharAt(0);
         }
         while (Pattern.length() > 0) {
@@ -317,10 +317,10 @@ public class IRP {
                     genHex(val.m_val);
                 } else {
                     int Number = (int) (val.m_val);
-                    if (m_msb)
+                    if (m_msb == BitDirection.msb)
                         Number = Integer.reverse(Number) >> (32 - val.m_bits);
                     while (--val.m_bits >= 0) {
-                        if (m_msb) {
+                        if (m_msb == BitDirection.msb) {
                             m_pendingBits = (m_pendingBits << 1) + (Number & 1);
                             if ((m_pendingBits & m_bitGroup) != 0) {
                                 genHex(m_digits[m_pendingBits - m_bitGroup]);
@@ -384,14 +384,11 @@ public class IRP {
         System.out.println(sum);
     }
 
-    // roughly old function generate(FILE) but generates a String instead
-    // of writing stuff to a file.
-    private String prontoString() {
-        String outString = "";
+    // compute actual hex code
+    private void computeHex() {
         m_hex.clear();
-
         m_cumulative = 0.0;
-        m_pendingBits = m_msb ? 1 : m_bitGroup;
+        m_pendingBits = m_msb == BitDirection.msb ? 1 : m_bitGroup;
         int Single = genHex(new StringBuffer(m_form));// size of start sequence
         if (m_cumulative < m_messageTime)
             genHex(m_cumulative - m_messageTime);
@@ -400,43 +397,53 @@ public class IRP {
         if (Single < 0)
             Single = m_hex.size();
         Single >>= 1;
+        sizeIntro = Single;
         if (debug_hex) {
             System.out.println(m_cumulative);
             System.out.println(m_messageTime);
             dump_hex();
         }
-
+    }
+    
+    // roughly old function generate(FILE) but generates a String instead
+    // of writing stuff to a file.
+    private String prontoString() {
+        computeHex();
+        String outString = "";
+ 
         int unit;
         if (m_frequency != 0) {
-            outString = "0000";
-            unit = (int) (4145146. / m_frequency + 0.5);
+            unit = (int) (4145146.0/m_frequency + 0.5);
+            outString = String.format("0000 %04X %04X %04X", unit, sizeIntro, m_hex.size() / 2 - sizeIntro);
+            for (int nIndex = 0; nIndex < m_hex.size(); nIndex += 2)
+                outString += String.format(" %04X %04X", computeCycles(nIndex), computeCycles(nIndex + 1));
         } else {
-            outString = "0100";
             double mn = m_hex.get(0);
             for (int nIndex = 1; nIndex < m_hex.size(); nIndex++) {
                 if (mn > m_hex.get(nIndex))
                     mn = m_hex.get(nIndex);
             }
             unit = (int) (4.145146 * .125 * mn + 0.5);
-            unit &= -2;
-        }
-        if (unit <= 0)
-            unit = 1;
-        outString += String.format(" %04X %04X %04X", unit, Single, m_hex.size() / 2 - Single);
-        for (int nIndex = 0; nIndex < m_hex.size(); nIndex += 2) {
-            int v1 = (int) (m_hex.get(nIndex) * 4.145146 / unit + 0.5);
-            if (v1 == 0)
-                v1 = 1;
-            if (v1 > 0xFFFF)
-                v1 = 0xFFFF;
-            int v2 = (int) ((m_hex.get(nIndex) + m_hex.get(nIndex + 1)) * 4.145146 / unit + 0.5) - v1;
-            if (v2 == 0)
-                v2 = 1;
-            if (v2 > 0xFFFF)
-                v2 = 0xFFFF;
-            outString += String.format(" %04X %04X", v1, v2);
+            //unit &= -2;
+            outString = String.format("0100 %04X %04X %04X", unit, sizeIntro, m_hex.size()/2 - sizeIntro);
+            for (int nIndex = 0; nIndex < m_hex.size(); nIndex += 2)
+                outString += String.format(" %04X %04X", computeCycles(nIndex, mn), computeCycles(nIndex + 1, mn));
         }
         return outString;
+    }
+    
+    private int computeCycles(int index) {
+        int y = (int)(m_hex.get(index) *m_frequency/1000000.0 + 0.5);
+        return y < 1 ? 1 :
+               y > 0xFFFF ? 0xFFFF :
+               y;
+    }
+    
+    private int computeCycles(int index, double mn) {
+        int y = (int)(m_hex.get(index)*8.0/mn + 0.5);
+        return y < 1 ? 1 :
+               y > 0xFFFF ? 0xFFFF :
+               y;
     }
     
     /**
@@ -464,10 +471,6 @@ public class IRP {
         this();
         is_valid = readIrpFile(irpfile);
     }
-
-    //public IRP(String filename) {
-    //    this(new File(filename));
-    //}
 
     private boolean eval_keyword_value(String keyword, String value) {
         if (keyword.equalsIgnoreCase("frequency"))
@@ -501,32 +504,13 @@ public class IRP {
         else if (keyword.equalsIgnoreCase("R-SUFFIX"))
             m_rSuffix = value;
         else if (keyword.equalsIgnoreCase("FIRSTBIT"))
-            m_msb = value.equalsIgnoreCase("msb");
+            m_msb = BitDirection.valueOf(value.toLowerCase());
         else if (keyword.equalsIgnoreCase("FORM"))
             m_form = value.toUpperCase();
-        else if (keyword.regionMatches(true, 0, "DEFINE", 0 , 6)
+        else if (keyword.regionMatches(true, 0, "DEFINE", 0, 6)
                 || keyword.regionMatches(true, 0, "DEFAULT", 0, 7))
-            m_def.put(keyword.charAt(keyword.length()-1), value); 
-	      /*		{
-			if (m_next[1] == '=')
-			{	// define x = ...
-				m_next += 2;
-				m_def[m_next[-2]-'A'] = copy();
-			}
-			else if (m_next[0] == '=' && m_next[2]=='A' && m_next[3]=='S')
-			{	// define = x as ...
-				m_next += 4;
-				m_def[m_next[-3]-'A'] = copy();
-			}
-			else if (m_next[1]=='A' && m_next[2]=='S')
-			{	// define x as ...
-				m_next += 3;
-				m_def[m_next[-3]-'A'] = copy();
-			}
-		}*/
-	       else if (keyword.equalsIgnoreCase("DEVICE"))
-            //memcpy(m_bufr, "DEVICE=", 8);
-            //memcpy(m_bufr+7, Device, sizeof(m_bufr)-7);	
+            m_def.put(keyword.charAt(keyword.length() - 1), value);
+        else if (keyword.equalsIgnoreCase("DEVICE"))
             getPair(m_device, value);
         else if (keyword.equalsIgnoreCase("FUNCTION")) {
             String[] str = value.split("\\.\\.");
@@ -534,23 +518,15 @@ public class IRP {
             m_functions[0] = Integer.parseInt(str[0]);
             if (str.length > 1)
                 m_functions[2] = Integer.parseInt(str[1]);
-/*            if (m_next[0] == '.' && m_next[1] == '.') {
-                m_next += 2;
-                getPair(m_functions + 2);
-            }
-		}
-	      */
         } else if (keyword.equalsIgnoreCase("protocol"))
             protocolname = value;
-         else
+        else
             System.err.println("Unknown keyword: " + keyword);
         return true;
     }
 
     private boolean readIrpFile(File irpfile) {
         filename = irpfile.getName();
-        if (debug_parser)
-            System.err.println("***Reading irp-file " + irpfile);
         BufferedReader r = null;
         try {
             r = new BufferedReader(new InputStreamReader(new FileInputStream(irpfile)));
@@ -749,7 +725,7 @@ public class IRP {
             usage(1);
         }
 
-        // Using several input files and one output file (!= directory) is allowed, but silly.
+        // Using several input files and one output file (!= directory) is allowed, but senseless.
 
         for (int i = arg_i; i < args.length; i++) {
             process_irpfile(args[i], out, device, subdevice, function, endfunctionno, toggle);
