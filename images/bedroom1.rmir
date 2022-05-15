@@ -1,0 +1,935 @@
+[General]
+Remote.name=URC-7780 Extender A2 
+Remote.signature=106A106A
+Notes=
+
+[Buffer]
+EC00=31 30 36 41 31 30 36 41 C4 3B FF FF FF FF FF FF
+EC10=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+EC20=FF FF FF FF 04 44 00 00 00 00 00 01 00 00 FF FF
+EC30=FF FF FF FF FF FF FF FF 41 4D 50 FF 4D 49 53 FF
+EC40=44 56 44 FF 43 44 FF FF 43 41 53 FF 44 41 54 FF
+EC50=54 56 FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+EC60=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+EC70=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+EC80=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+EC90=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+ECA0=FF FF FF FF FF FF FF FF FF FF FF FF FF 10 10 04
+ECB0=07 08 31 00 FF 02 CD 1F A6 A6 41 C7 02 13 C7 02
+ECC0=17 45 EC 00 CF 04 4F 96 02 02 CD 1F EC A6 F1 B7
+ECD0=F4 9D 9D 6E 1F B3 A6 FF C7 04 4E CD 87 AD CD 20
+ECE0=BA CD 5E B6 45 04 46 94 24 09 CD 21 21 CD 21 38
+ECF0=CC ED 74 CD 21 51 24 13 6E 01 F1 CD 84 DC CD 62
+ED00=CE CD 61 90 AE 05 CD 87 90 20 02 3F F1 3F 48 CD
+ED10=21 21 CD 21 38 14 14 12 14 CD 19 32 24 2B CD 19
+ED20=13 CD FF 0F C7 18 00 CD 86 E9 3D F1 27 03 CD 7E
+ED30=41 CD 21 21 9A 8F C7 18 00 00 48 38 CD 19 23 24
+ED40=E0 CD 19 79 CD ED DC 20 C4 CD 60 BA 12 04 C7 18
+ED50=00 A6 44 C7 18 0A 00 48 01 8E C7 18 00 C6 18 09
+ED60=A4 80 27 01 8D C6 18 09 AA 40 C7 18 09 A4 EF AA
+ED70=20 C7 18 09 13 14 13 16 3F 30 A6 7F 4B FE 0E ED
+ED80=0C 13 10 AE 50 A6 01 CD FF 9E CD 63 5F 1D EA 0F
+ED90=EA 03 0E F4 2A CD 5E 2F B6 F6 27 52 0E ED 03 CD
+EDA0=60 B1 B6 F6 A1 01 26 46 B6 F4 B7 F7 CD 5F 54 24
+EDB0=0E CC 1E 57 45 FB F5 35 6C 45 F4 00 35 6A 81 1F
+EDC0=EA B6 F4 B7 F7 A1 01 26 33 AD 11 25 06 02 B4 03
+EDD0=0D B3 1E 13 B4 1D B3 CD 87 8E 20 1B A6 00 97 C4
+EDE0=04 4F 27 6B 9F 43 C4 04 4F C7 04 4F 99 81 CC EC
+EDF0=D6 06 EA 06 05 EA 03 6E 7F F7 11 B4 CD 87 C0 CD
+EE00=7D 0E CD 5F 23 24 0A BE E4 8C D6 04 BA AB F1 B7
+EE10=F7 45 07 FA B6 F7 F7 96 02 06 6E 01 F9 32 02 06
+EE20=F6 B7 F7 AD 1F 24 39 41 7A 27 AE FF CF 04 4E 41
+EE30=79 21 A0 31 8C AE 06 52 A1 0C 24 17 8B 88 8C D7
+EE40=04 49 20 0F B6 F7 A1 31 25 05 0E F7 02 99 81 98
+EE50=81 12 B4 CC EF 3D 00 01 01 03 04 00 05 02 00 00
+EE60=B6 F7 0D B3 02 BA B0 B7 F7 A1 F1 24 62 87 03 B4
+EE70=02 AA 80 A1 83 27 08 25 16 A1 88 24 12 A6 18 03
+EE80=B4 06 97 86 AA 80 87 9F 0D B3 08 12 B4 20 04 13
+EE90=B4 A4 3F B7 F7 CD 41 B5 86 B7 F7 8C 5F 24 02 BE
+EEA0=B6 C6 04 4E A1 0C 25 07 D6 EE 56 97 D6 04 48 B7
+EEB0=E8 B6 F9 A1 01 26 03 CD 7F 46 B6 F7 1D B3 6E 80
+EEC0=B0 41 02 07 A1 82 26 31 6E C0 B0 1C B3 20 2A 3A
+EED0=F7 CD 34 A7 B6 E4 B1 E1 B6 E7 25 05 6E F1 F7 20
+EEE0=EE 8C AE 06 D7 04 47 5B FB CF 04 4D 05 D9 05 B6
+EEF0=DD C7 04 4B 3C F7 CD 7E 41 4E F7 72 4E E8 73 6E
+EF00=10 74 6E 07 75 AD 17 25 1D 6E 80 74 6E 07 75 AD
+EF10=0D 25 07 6E 0F 73 AD 06 24 13 AD 49 20 1F CD ED
+EF20=B4 3C 6B CC 48 98 CD 37 52 1F B3 20 10 B6 F7 A1
+EF30=F1 24 0A 02 B4 04 1F F7 1D F7 CD 1A F6 3B F9 06
+EF40=CD 7F 42 CC EC D6 CD EE 44 25 0D A1 F1 24 09 8C
+EF50=A6 00 4C AE 7F CD FF 9E 32 02 06 5C 96 02 06 4E
+EF60=F9 F6 CC EE 1D 32 02 04 AF 03 35 50 B6 70 27 19
+EF70=B7 55 BB F9 A1 B4 24 11 B7 F9 45 07 FB CD FE D3
+EF80=96 02 06 5C 35 52 CD FE AE 81 32 02 04 AF 02 F6
+EF90=B7 70 AF 03 96 02 04 F6 B7 51 A4 07 B7 54 B6 51
+EFA0=62 A4 07 97 CD 34 58 B7 53 C5 04 4F 27 05 4E 54
+EFB0=70 20 13 B6 70 B0 54 A0 03 B7 70 32 02 04 B6 54
+EFC0=CD FE E5 96 02 04 C6 04 4F 07 51 02 BA 53 0E 51
+EFD0=02 B8 53 32 02 04 AF 01 C7 04 4F AD 0E 20 8B 8C
+EFE0=BE E8 58 B6 60 E7 BF B6 61 E7 C0 18 B3 3A B3 19
+EFF0=B3 81 32 02 04 AF 02 F6 A0 02 B7 70 AF 03 20 DB
+F000=A8 57 F1 62 F1 88 80 00 01 81 00 01 FE 00 01 FC
+F010=00 01 FB 00 01 F9 00 01 73 00 BE FE A2 EF 11 51
+F020=11 51 6F C1 8B E1 8B C1 8B D1 8F E1 8F D1 8F C1
+F030=8B B1 8F B1 5B 61 7F D1 7B D1 11 CC 6F E1 A3 E3
+F040=5B D1 2B D1 3F E1 83 E5 CB E1 27 E1 2B E1 7F E1
+F050=7B E1 B7 E3 6F D1 BF E3 BB E3 7B C1 5B E1 5B B1
+F060=5B C1 5A 00 9E FE BE FF 20 C9 E9 00 5F A5 00 00
+F070=00 00 00 00 00 95 FD 45 4D E7 E7 7D 17 DF 0D 37
+F080=67 AD DD BD D5 2D 85 C5 E5 05 5D 25 15 5A 00 BE
+F090=FE FE FD 00 6D 00 DF 2F 1F 3F AF 9F BF 6F 5F 7F
+F0A0=85 45 A7 95 D7 55 75 B5 27 35 FD E7 F7 15 0D C7
+F0B0=C5 F5 D5 07 5D 47 05 77 DD 87 20 04 00 00 02 00
+F0C0=CC EC B6 20 04 00 00 02 00 CC EF 8A 20 04 00 00
+F0D0=02 00 CC EF DF 20 04 00 00 02 00 CC EF F2 20 04
+F0E0=00 00 02 00 AD A7 B6 B5 4C BE B6 CC FF 9E 20 04
+F0F0=00 00 02 00 3F 30 32 02 04 AF 02 F6 B7 70 AF 04
+F100=96 02 04 B6 B5 62 A4 0F 8C 97 35 49 CD 19 13 B6
+F110=B5 A4 07 87 B7 54 06 B5 11 CD 5E 4E 24 21 CD 19
+F120=23 24 F6 20 1F CD 5E 4E 25 1A 3F 48 14 14 12 14
+F130=C7 18 00 8F C7 18 00 00 48 EB CD 19 23 24 F1 86
+F140=B7 70 20 16 86 B7 54 B6 70 B0 54 A0 03 B7 70 32
+F150=02 04 B6 54 CD FE E5 96 02 04 32 02 04 3F 30 CC
+F160=EF DB 00 09 0F 08 1F 08 0C 4D 0C 4F 0C 50 0C 52
+F170=77 E4 75 2C 45 F5 F0 06 F0 09 F0 0C F0 0F F0 12
+F180=F0 15 F0 18 F0 62 F0 8D 00 06 01 80 01 81 01 FE
+F190=01 FC 01 FB 01 F9 F0 BA F0 C3 F0 CC F0 D5 F0 DE
+F1A0=F0 EE A8 00 06 01 80 01 81 01 FE 01 FC 01 FB 01
+F1B0=F9 F0 D5 F0 DE F0 E7 F0 F0 F0 F9 F1 09 F0 09 F0
+F1C0=0C F0 0F F0 12 F0 15 F0 18 F0 62 F0 8A F0 D0 00
+F1D0=06 01 80 01 81 01 FE 01 FC 01 FB 01 F9 F0 FD F1
+F1E0=06 F1 0F F1 18 F1 21 F1 31 F0 A4 F0 EA 00 06 01
+F1F0=80 01 81 01 FE 01 FC 01 FB 01 F9 F1 17 F1 20 F1
+F200=29 F1 32 F1 3B F1 4B F1 4D 01 F9 F1 23 F1 2C F1
+F210=35 F1 3E F1 47 F1 57 F0 A4 F0 CC F1 12 00 06 01
+F220=80 01 81 01 FE 01 FC 01 FB 01 F9 F1 3F F1 48 F1
+F230=51 F1 5A F1 63 F1 73 0C 52 65 67 24 67 77 E4 67
+F240=F1 C4 23 61 37 65 1F 45 F5 F0 06 F0 09 F0 0C F0
+F250=0F F0 12 F0 15 F0 18 F0 5C F0 78 F0 C4 F0 CE F0
+F260=E8 F1 10 F1 56 00 06 01 80 01 81 01 FE 01 FC 01
+F270=FB 01 F9 F1 83 F1 8C F1 95 F1 9E F1 A7 F1 B7 FB
+F280=01 F9 00 23 F1 31 F1 3A F1 43 F1 4C F1 55 F1 65
+F290=F1 D9 FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F2A0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F2B0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F2C0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F2D0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F2E0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F2F0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F300=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F310=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F320=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F330=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F340=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F350=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F360=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F370=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F380=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F390=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F3A0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F3B0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F3C0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F3D0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F3E0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F3F0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F400=FF DF 10 04 65 1F 42 90 D5 10 04 65 1F 46 50 D6
+F410=10 04 65 1F 42 50 D7 10 04 65 1F 41 50 DA 10 04
+F420=65 1F 47 90 DB 10 04 65 1F 43 90 DC 10 04 65 1F
+F430=45 50 DD 10 04 65 1F 47 50 DE 10 04 65 1F 44 90
+F440=E0 10 04 65 1F 40 90 2D 10 04 65 1F 45 30 2E 10
+F450=04 65 1F 43 30 2F 10 04 65 1F 32 48 30 10 04 65
+F460=1F 32 88 88 11 04 77 E4 00 C8 2D 11 04 77 E4 5B
+F470=A1 2E 11 04 77 E4 5B 91 2F 11 04 77 E4 5B 81 30
+F480=11 04 77 E4 5B 71 88 18 04 45 F5 3D AB A8 18 04
+F490=45 F5 ED 25 98 18 04 45 F5 57 78 A3 18 04 45 F5
+F4A0=BD A7 A1 18 04 45 F5 9D A6 A9 18 04 45 F5 FF B5
+F4B0=2D 18 04 45 F5 1D AA AD 18 04 45 F5 B7 77 2E 18
+F4C0=04 45 F5 2D 2B AE 18 04 45 F5 CF 34 2F 18 04 45
+F4D0=F5 6D 29 AF 18 04 45 F5 4D 28 30 18 04 45 F5 AD
+F4E0=27 B0 18 04 45 F5 CD 24 84 18 04 45 F5 37 7B 85
+F4F0=18 04 45 F5 17 7A 88 16 04 06 14 FC AD 98 16 04
+F500=06 14 FC AD 2D 16 04 06 14 FC AD 88 11 04 77 E4
+F510=00 C8 2D 11 04 77 E4 5B A1 2E 11 04 77 E4 5B 91
+F520=2F 11 04 77 E4 5B 81 30 11 04 77 E4 5B 71 DF 10
+F530=04 65 1F 42 90 D5 10 04 65 1F 46 50 D6 10 04 65
+F540=1F 42 50 D7 10 04 65 1F 41 50 DA 10 04 65 1F 47
+F550=90 DB 10 04 65 1F 43 90 DC 10 04 65 1F 45 50 DD
+F560=10 04 65 1F 47 50 DE 10 04 65 1F 44 90 E0 10 04
+F570=65 1F 40 90 2D 10 04 65 1F 45 30 2E 10 04 65 1F
+F580=43 30 2F 10 04 65 1F 32 48 30 10 04 65 1F 32 88
+F590=96 8F 01 F3 97 8F 01 F2 9A 8F 01 F6 9B 8F 01 F9
+F5A0=9D 8F 01 F1 FF 01 F1 FF 01 F6 9B 8F 01 F1 FF F6
+F5B0=9B 8F 01 F1 FF F6 9B 8F 01 F1 FF F6 9B 8F 01 F1
+F5C0=FF 01 F6 9B 8F 01 F1 FF 01 F6 9B 8F 01 F1 FF 01
+F5D0=F6 9B 8F 01 F1 FF 01 F6 9B 8F 01 F1 FF FF FF FF
+F5E0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F5F0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F600=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F610=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F620=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F630=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F640=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F650=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F660=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F670=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F680=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F690=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F6A0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F6B0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F6C0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F6D0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F6E0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F6F0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F700=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F710=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F720=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F730=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F740=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F750=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F760=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F770=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F780=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F790=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F7A0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F7B0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F7C0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F7D0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F7E0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F7F0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F800=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F810=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F820=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F830=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F840=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F850=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F860=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F870=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F880=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F890=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F8A0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F8B0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F8C0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F8D0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F8E0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F8F0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F900=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F910=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F920=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F930=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F940=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F950=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F960=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F970=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F980=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F990=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F9A0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F9B0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F9C0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F9D0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F9E0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+F9F0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+FA00=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+FA10=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+FA20=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+FA30=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+FA40=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+FA50=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+FA60=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+FA70=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+FA80=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+FA90=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+FAA0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+FAB0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+FAC0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+FAD0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+FAE0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+FAF0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+FB00=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+FB10=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+FB20=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+FB30=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+FB40=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+FB50=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+FB60=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+FB70=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+FB80=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+FB90=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+FBA0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+FBB0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+FBC0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+FBD0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+FBE0=FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+FBF0=FF FF FF FF FF FF 31 30 36 54 EC B6 05 FF FF FF
+
+[DeviceButtonNotes]
+Dev7=RC5 TV
+
+[Settings]
+Shift Key=2
+Alt Shift Key=130
+Alt Shift=0
+Timed TogBits=0
+Macro Delay Hi=0
+Macro Delay Lo=127
+VPT Device=0
+VPT Status=1
+1-English 2-German 4-French=1
+AP Setting=68
+ID Lock Devs 1-7=0
+ID Lock Devs 8-12=0
+RTI Count=0
+
+[KeyMove]
+DeviceButtonIndex=0
+DeviceType=6
+SetupCode=1311
+Data=65 1F 42 90
+KeyCode=223
+
+[KeyMove]
+DeviceButtonIndex=0
+DeviceType=6
+SetupCode=1311
+Data=65 1F 46 50
+KeyCode=213
+
+[KeyMove]
+DeviceButtonIndex=0
+DeviceType=6
+SetupCode=1311
+Data=65 1F 42 50
+KeyCode=214
+
+[KeyMove]
+DeviceButtonIndex=0
+DeviceType=6
+SetupCode=1311
+Data=65 1F 41 50
+KeyCode=215
+
+[KeyMove]
+DeviceButtonIndex=0
+DeviceType=6
+SetupCode=1311
+Data=65 1F 47 90
+KeyCode=218
+
+[KeyMove]
+DeviceButtonIndex=0
+DeviceType=6
+SetupCode=1311
+Data=65 1F 43 90
+KeyCode=219
+
+[KeyMove]
+DeviceButtonIndex=0
+DeviceType=6
+SetupCode=1311
+Data=65 1F 45 50
+KeyCode=220
+
+[KeyMove]
+DeviceButtonIndex=0
+DeviceType=6
+SetupCode=1311
+Data=65 1F 47 50
+KeyCode=221
+
+[KeyMove]
+DeviceButtonIndex=0
+DeviceType=6
+SetupCode=1311
+Data=65 1F 44 90
+KeyCode=222
+
+[KeyMove]
+DeviceButtonIndex=0
+DeviceType=6
+SetupCode=1311
+Data=65 1F 40 90
+KeyCode=224
+
+[KeyMove]
+DeviceButtonIndex=0
+DeviceType=6
+SetupCode=1311
+Data=65 1F 45 30
+Notes=Zone 3 Volume down
+KeyCode=45
+
+[KeyMove]
+DeviceButtonIndex=0
+DeviceType=6
+SetupCode=1311
+Data=65 1F 43 30
+Notes=Zone 3 Volume up
+KeyCode=46
+
+[KeyMove]
+DeviceButtonIndex=0
+DeviceType=6
+SetupCode=1311
+Data=65 1F 32 48
+Notes=ZONE 2 BD
+KeyCode=47
+
+[KeyMove]
+DeviceButtonIndex=0
+DeviceType=6
+SetupCode=1311
+Data=65 1F 32 88
+Notes=ZONE 2 Sat/Cbl
+KeyCode=48
+
+[KeyMove]
+DeviceButtonIndex=1
+DeviceType=7
+SetupCode=2020
+Data=77 E4 00 C8
+KeyCode=136
+
+[KeyMove]
+DeviceButtonIndex=1
+DeviceType=7
+SetupCode=2020
+Data=77 E4 5B A1
+KeyCode=45
+
+[KeyMove]
+DeviceButtonIndex=1
+DeviceType=7
+SetupCode=2020
+Data=77 E4 5B 91
+KeyCode=46
+
+[KeyMove]
+DeviceButtonIndex=1
+DeviceType=7
+SetupCode=2020
+Data=77 E4 5B 81
+KeyCode=47
+
+[KeyMove]
+DeviceButtonIndex=1
+DeviceType=7
+SetupCode=2020
+Data=77 E4 5B 71
+KeyCode=48
+
+[KeyMoveLong]
+DeviceButtonIndex=8
+DeviceType=4
+SetupCode=1525
+Data=45 F5 3D AB
+KeyCode=136
+
+[KeyMoveLong]
+DeviceButtonIndex=8
+DeviceType=4
+SetupCode=1525
+Data=45 F5 ED 25
+Notes=top menu
+KeyCode=168
+
+[KeyMoveLong]
+DeviceButtonIndex=8
+DeviceType=4
+SetupCode=1525
+Data=45 F5 57 78
+KeyCode=152
+
+[KeyMoveLong]
+DeviceButtonIndex=8
+DeviceType=4
+SetupCode=1525
+Data=45 F5 BD A7
+KeyCode=163
+
+[KeyMoveLong]
+DeviceButtonIndex=8
+DeviceType=4
+SetupCode=1525
+Data=45 F5 9D A6
+KeyCode=161
+
+[KeyMoveLong]
+DeviceButtonIndex=8
+DeviceType=4
+SetupCode=1525
+Data=45 F5 FF B5
+KeyCode=169
+
+[KeyMoveLong]
+DeviceButtonIndex=8
+DeviceType=4
+SetupCode=1525
+Data=45 F5 1D AA
+KeyCode=45
+
+[KeyMoveLong]
+DeviceButtonIndex=8
+DeviceType=4
+SetupCode=1525
+Data=45 F5 B7 77
+KeyCode=173
+
+[KeyMoveLong]
+DeviceButtonIndex=8
+DeviceType=4
+SetupCode=1525
+Data=45 F5 2D 2B
+KeyCode=46
+
+[KeyMoveLong]
+DeviceButtonIndex=8
+DeviceType=4
+SetupCode=1525
+Data=45 F5 CF 34
+KeyCode=174
+
+[KeyMoveLong]
+DeviceButtonIndex=8
+DeviceType=4
+SetupCode=1525
+Data=45 F5 6D 29
+KeyCode=47
+
+[KeyMoveLong]
+DeviceButtonIndex=8
+DeviceType=4
+SetupCode=1525
+Data=45 F5 4D 28
+KeyCode=175
+
+[KeyMoveLong]
+DeviceButtonIndex=8
+DeviceType=4
+SetupCode=1525
+Data=45 F5 AD 27
+KeyCode=48
+
+[KeyMoveLong]
+DeviceButtonIndex=8
+DeviceType=4
+SetupCode=1525
+Data=45 F5 CD 24
+KeyCode=176
+
+[KeyMoveLong]
+DeviceButtonIndex=8
+DeviceType=4
+SetupCode=1525
+Data=45 F5 37 7B
+KeyCode=132
+
+[KeyMoveLong]
+DeviceButtonIndex=8
+DeviceType=4
+SetupCode=1525
+Data=45 F5 17 7A
+KeyCode=133
+
+[KeyMoveLong]
+DeviceButtonIndex=6
+DeviceType=0
+SetupCode=1556
+Data=06 14 FC AD
+KeyCode=136
+
+[KeyMoveLong]
+DeviceButtonIndex=6
+DeviceType=0
+SetupCode=1556
+Data=06 14 FC AD
+KeyCode=152
+
+[KeyMoveLong]
+DeviceButtonIndex=6
+DeviceType=0
+SetupCode=1556
+Data=06 14 FC AD
+KeyCode=45
+
+[KeyMove]
+DeviceButtonIndex=1
+DeviceType=7
+SetupCode=2020
+Data=77 E4 00 C8
+KeyCode=136
+
+[KeyMove]
+DeviceButtonIndex=1
+DeviceType=7
+SetupCode=2020
+Data=77 E4 5B A1
+KeyCode=45
+
+[KeyMove]
+DeviceButtonIndex=1
+DeviceType=7
+SetupCode=2020
+Data=77 E4 5B 91
+KeyCode=46
+
+[KeyMove]
+DeviceButtonIndex=1
+DeviceType=7
+SetupCode=2020
+Data=77 E4 5B 81
+KeyCode=47
+
+[KeyMove]
+DeviceButtonIndex=1
+DeviceType=7
+SetupCode=2020
+Data=77 E4 5B 71
+KeyCode=48
+
+[KeyMove]
+DeviceButtonIndex=0
+DeviceType=6
+SetupCode=1311
+Data=65 1F 42 90
+KeyCode=223
+
+[KeyMove]
+DeviceButtonIndex=0
+DeviceType=6
+SetupCode=1311
+Data=65 1F 46 50
+KeyCode=213
+
+[KeyMove]
+DeviceButtonIndex=0
+DeviceType=6
+SetupCode=1311
+Data=65 1F 42 50
+KeyCode=214
+
+[KeyMove]
+DeviceButtonIndex=0
+DeviceType=6
+SetupCode=1311
+Data=65 1F 41 50
+KeyCode=215
+
+[KeyMove]
+DeviceButtonIndex=0
+DeviceType=6
+SetupCode=1311
+Data=65 1F 47 90
+KeyCode=218
+
+[KeyMove]
+DeviceButtonIndex=0
+DeviceType=6
+SetupCode=1311
+Data=65 1F 43 90
+KeyCode=219
+
+[KeyMove]
+DeviceButtonIndex=0
+DeviceType=6
+SetupCode=1311
+Data=65 1F 45 50
+KeyCode=220
+
+[KeyMove]
+DeviceButtonIndex=0
+DeviceType=6
+SetupCode=1311
+Data=65 1F 47 50
+KeyCode=221
+
+[KeyMove]
+DeviceButtonIndex=0
+DeviceType=6
+SetupCode=1311
+Data=65 1F 44 90
+KeyCode=222
+
+[KeyMove]
+DeviceButtonIndex=0
+DeviceType=6
+SetupCode=1311
+Data=65 1F 40 90
+KeyCode=224
+
+[KeyMove]
+DeviceButtonIndex=0
+DeviceType=6
+SetupCode=1311
+Data=65 1F 45 30
+Notes=Zone 3 Volume down
+KeyCode=45
+
+[KeyMove]
+DeviceButtonIndex=0
+DeviceType=6
+SetupCode=1311
+Data=65 1F 43 30
+Notes=Zone 3 Volume up
+KeyCode=46
+
+[KeyMove]
+DeviceButtonIndex=0
+DeviceType=6
+SetupCode=1311
+Data=65 1F 32 48
+Notes=ZONE 2 BD
+KeyCode=47
+
+[KeyMove]
+DeviceButtonIndex=0
+DeviceType=6
+SetupCode=1311
+Data=65 1F 32 88
+Notes=ZONE 2 Sat/Cbl
+KeyCode=48
+
+[Macro]
+Data=F3
+KeyCode=150
+
+[Macro]
+Data=F2
+KeyCode=151
+
+[Macro]
+Data=F6
+KeyCode=154
+
+[Macro]
+Data=F9
+KeyCode=155
+
+[Macro]
+Data=F1
+KeyCode=157
+
+[DeviceUpgrade]
+Remote.name=URC-7780 Extender A2 
+Remote.signature=106A106A
+DeviceType=TV
+DeviceIndex=0
+SetupCode=1800
+Protocol=01 80
+Protocol.name=Manual Settings\: 01 80
+FixedData=
+CmdParms=OBC,Byte 2\=0
+CmdTranslator=Translator(0) Translator(1,8,8)
+DefaultCmd=00 00
+CmdIndex=0
+FixedData=
+Code.HCS08=20 04 00 00 02 00 CC EC B6
+
+[DeviceUpgrade]
+Remote.name=URC-7780 Extender A2 
+Remote.signature=106A106A
+DeviceType=VCR
+DeviceIndex=1
+SetupCode=1800
+Protocol=01 81
+Protocol.name=Manual Settings\: 01 81
+FixedData=
+CmdParms=OBC,Byte 2\=0
+CmdTranslator=Translator(0) Translator(1,8,8)
+DefaultCmd=00 00
+CmdIndex=0
+FixedData=
+Code.HCS08=20 04 00 00 02 00 CC EF 8A
+
+[DeviceUpgrade]
+Remote.name=URC-7780 Extender A2 
+Remote.signature=106A106A
+DeviceType=TV
+DeviceIndex=0
+SetupCode=1101
+Protocol=01 FE
+Protocol.name=Manual Settings\: 01 FE
+FixedData=
+CmdParms=OBC,Byte 2\=0
+CmdTranslator=Translator(0) Translator(1,8,8)
+DefaultCmd=00 00
+CmdIndex=0
+FixedData=
+Code.HCS08=20 04 00 00 02 00 CC EF DF
+
+[DeviceUpgrade]
+Remote.name=URC-7780 Extender A2 
+Remote.signature=106A106A
+DeviceType=TV
+DeviceIndex=0
+SetupCode=1103
+Protocol=01 FC
+Protocol.name=Manual Settings\: 01 FC
+FixedData=
+CmdParms=OBC,Byte 2\=0
+CmdTranslator=Translator(0) Translator(1,8,8)
+DefaultCmd=00 00
+CmdIndex=0
+FixedData=
+Code.HCS08=20 04 00 00 02 00 CC EF F2
+
+[DeviceUpgrade]
+Remote.name=URC-7780 Extender A2 
+Remote.signature=106A106A
+DeviceType=TV
+DeviceIndex=0
+SetupCode=1104
+Protocol=01 FB
+Protocol.name=Pause Protocol (Special)
+Protocol.variantName=Special
+FixedData=
+CustomCode.HCS08=20 04 00 00 02 00 AD A7 B6 B5 4C BE B6 CC FF 9E
+
+[DeviceUpgrade]
+Remote.name=URC-7780 Extender A2 
+Remote.signature=106A106A
+DeviceType=TV
+DeviceIndex=0
+SetupCode=1106
+Protocol=01 F9
+Protocol.name=Manual Settings\: 01 F9
+FixedData=
+CmdParms=OBC,Byte 2\=0
+CmdTranslator=Translator(0) Translator(1,8,8)
+DefaultCmd=00 00
+CmdIndex=0
+FixedData=
+Code.HCS08=20 04 00 00 02 00 3F 30 32 02 04 AF 02 F6 B7 70 AF 04 96 02 04 B6 B5 62 A4 0F 8C 97 35 49 CD 19 13 B6 B5 A4 07 87 B7 54 06 B5 11 CD 5E 4E 24 21 CD 19 23 24 F6 20 1F CD 5E 4E 25 1A 3F 48 14 14 12 14 C7 18 00 8F C7 18 00 00 48 EB CD 19 23 24 F1 86 B7 70 20 16 86 B7 54 B6 70 B0 54 A0 03 B7 70 32 02 04 B6 54 CD FE E5 96 02 04 32 02 04 3F 30 CC EF DB
+
+[DeviceUpgrade]
+Description=Marantz IS201 iPod dock
+Remote.name=URC-7780 Extender A2 
+Remote.signature=106A106A
+Notes=Created by Harc version 0.1.0
+DeviceType=Misc Audio
+DeviceIndex=7
+SetupCode=2020
+Protocol=00 73
+Protocol.name=RC-5/5x Combo
+ProtocolParms=14 0 14 1 null 0 null 0
+FixedData=11 51 11 51
+Notes=Created by Harc version 0.1.0
+Function.0.name=power_toggle
+Function.0.hex=11 CC
+Function.1.name=mute_toggle
+Function.1.hex=00 C8
+Function.2.name=power_on
+Function.2.hex=CF E1
+Function.3.name=power_off
+Function.3.hex=CF D1
+Function.4.name=mute_on
+Function.4.hex=CB F1
+Function.5.name=mute_off
+Function.5.hex=CB E1
+Function.6.name=repeat
+Function.6.hex=8F E1
+Function.7.name=repeat_track
+Function.7.hex=8F D1
+Function.8.name=repeat_all
+Function.8.hex=8F C1
+Function.9.name=repeat_off
+Function.9.hex=8F B1
+Function.10.name=shuffle
+Function.10.hex=8B E1
+Function.11.name=shuffle_songs
+Function.11.hex=8B D1
+Function.12.name=shuffle_albums
+Function.12.hex=8B C1
+Function.13.name=shuffle_off
+Function.13.hex=8B B1
+Function.14.name=fast_forward
+Function.14.hex=CB E1
+Function.15.name=rewind
+Function.15.hex=83 E5
+Function.16.name=next
+Function.16.hex=7F E1
+Function.17.name=next_album
+Function.17.hex=7F D1
+Function.18.name=next_playlist
+Function.18.hex=7F C1
+Function.19.name=previous
+Function.19.hex=7B E1
+Function.20.name=previous_album
+Function.20.hex=7B D1
+Function.21.name=previous_playlist
+Function.21.hex=7B C1
+Function.22.name=operation_mode
+Function.22.hex=6F E1
+Function.23.name=mode_osd_sidplay
+Function.23.hex=6F D1
+Function.24.name=mode_ipod_lcd_display
+Function.24.hex=6F C1
+Function.25.name=sort
+Function.25.hex=5B E1
+Function.26.name=sort_artist
+Function.26.hex=5B D1
+Function.27.name=sort_album
+Function.27.hex=5B C1
+Function.28.name=sort_song
+Function.28.hex=5B B1
+Function.29.name=sort_genres
+Function.29.hex=5B A1
+Function.30.name=sort_composer
+Function.30.hex=5B 91
+Function.31.name=sort_playlist
+Function.31.hex=5B 81
+Function.32.name=sort_podcasting
+Function.32.hex=5B 71
+Function.33.name=sort_audiobook
+Function.33.hex=5B 61
+Function.34.name=pause_toggle
+Function.34.hex=3F E1
+Function.35.name=play_pause
+Function.35.hex=2B E1
+Function.36.name=play
+Function.36.hex=2B D1
+Function.37.name=stop
+Function.37.hex=27 E1
+Function.38.name=up
+Function.38.hex=BF E3
+Function.39.name=down
+Function.39.hex=BB E3
+Function.40.name=menu
+Function.40.hex=B7 E3
+Function.41.name=ok
+Function.41.hex=A3 E3
+Button.1f=mode_ipod_lcd_display|null|null
+Button.15=shuffle|null|null
+Button.16=shuffle_albums|null|null
+Button.17=shuffle_songs|null|null
+Button.19=repeat|null|null
+Button.1a=repeat_track|null|null
+Button.1b=repeat_all|null|null
+Button.1c=shuffle_off|null|null
+Button.1d=repeat_off|null|null
+Button.1e=sort_audiobook|null|null
+Button.8=null|mute_toggle|null
+Button.6=next_album|null|null
+Button.7=previous_album|null|null
+Button.3=power_toggle|null|null
+Button.28=menu|null|null
+Button.24=up|null|null
+Button.25=down|null|null
+Button.26=previous_playlist|null|null
+Button.14=ok|null|null
+Button.22=operation_mode|null|null
+Button.29=sort|null|null
+Button.2a=sort_artist|null|null
+Button.2b=sort_album|null|null
+Button.2c=sort_song|null|null
+Button.c=play|null|null
+Button.f=pause_toggle|null|null
+Button.b=rewind|null|null
+Button.d=fast_forward|null|null
+Button.e=stop|null|null
+Button.10=play_pause|null|null
+Button.a=next|null|null
+Button.9=previous|null|null
+Button.20=mode_osd_sidplay|null|null
+Button.2d=sort_genres|null|null
+Button.2e=sort_composer|null|null
+Button.2f=sort_playlist|null|null
+Button.30=sort_podcasting|null|null
