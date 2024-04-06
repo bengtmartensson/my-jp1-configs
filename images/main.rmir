@@ -1,7 +1,7 @@
 [General]
 Remote.name=URC-7781 Extender A2
 Remote.signature=113A113A
-Notes=
+Notes=Version from 2024-04-06.
 
 [Buffer]
 F000=31 31 33 41 31 31 33 41 94 6B 65 1F 07 60 00 7B
@@ -170,7 +170,7 @@ FA20=04 07 60 B3 23 0C 11 04 07 60 59 E9 8C 11 04 07
 FA30=60 DB 58 0F 11 04 07 60 99 E9 0A 11 04 07 60 BD
 FA40=E9 09 11 04 07 60 3D E9 89 11 04 07 60 3B 58 2D
 FA50=11 04 07 60 24 80 AD 11 04 07 60 A7 58 2E 11 04
-FA60=07 60 55 23 AE 11 04 07 60 3F E9 2F 11 04 07 60
+FA60=07 60 55 23 AE 11 04 07 60 E3 23 2F 11 04 07 60
 FA70=DC 80 AF 11 04 07 60 63 23 30 11 04 07 60 06 80
 FA80=B0 11 04 07 60 3F 58 95 8F 01 F4 96 8F 01 F6 97
 FA90=8F 01 FA 9A 8F 01 F5 9B 8F 01 F7 99 8F 01 FA 9D
@@ -264,111 +264,133 @@ Notes=Oppo
 KeyCode=19
 
 [Macro]
+Multi=false
 Data=F4
 Notes=Coolstream
 KeyCode=149
 
 [Macro]
+Multi=false
 Data=F6
 Notes=Player
 KeyCode=150
 
 [Macro]
+Multi=false
 Data=FA
 Notes=Yamaha
 KeyCode=151
 
 [Macro]
+Multi=false
 Data=F5
 Notes=Oppo
 KeyCode=154
 
 [Macro]
+Multi=false
 Data=F7
 Notes=Pana
 KeyCode=155
 
 [Macro]
+Multi=false
 Data=FA
 Notes=Kaseiko
 KeyCode=153
 
 [Macro]
+Multi=false
 Data=F1
 Notes=Denon
 KeyCode=157
 
 [Macro]
+Multi=false
 Data=F2
 Notes=TV
 KeyCode=158
 
 [Macro]
+Multi=false
 Data=F3
 Notes=Projektor
 KeyCode=159
 
 [Macro]
+Multi=false
 Data=FB
 Notes=Home
 KeyCode=160
 
 [Macro]
+Multi=false
 Data=35
 Notes=Denon
 KeyCode=241
 
 [Macro]
+Multi=false
 Data=3B 39
 Notes=TV
 KeyCode=242
 
 [Macro]
+Multi=false
 Data=41
 Notes=Projektor
 KeyCode=243
 
 [Macro]
+Multi=false
 Data=47
 Notes=Coolstream
 KeyCode=244
 
 [Macro]
+Multi=false
 Data=4D
 Notes=Oppo
 KeyCode=245
 
 [Macro]
+Multi=false
 Data=53
 Notes=Fire
 KeyCode=246
 
 [Macro]
+Multi=false
 Data=59
 Notes=Pana
 KeyCode=247
 
 [Macro]
+Multi=false
 Data=5D
 Notes=Unassigned
 KeyCode=248
 
 [Macro]
+Multi=false
 Data=65
 Notes=Unassigned
 KeyCode=249
 
 [Macro]
+Multi=false
 Data=6B 69
 Notes=Yamaha
 KeyCode=250
 
 [Macro]
+Multi=false
 Data=71
 Notes=Home Automation
 KeyCode=251
 
 [Macro]
+Multi=false
 Data=77
 Notes=unused
 KeyCode=252
@@ -2067,6 +2089,8 @@ Function.92.name=TIMER DOWN
 Function.92.hex=4C 80
 Function.93.name=TIMER UP
 Function.93.hex=8C 80
+Function.94.name=youtube
+Function.94.hex=E3 23
 Button.1f=0|null|null
 Button.15=1|null|null
 Button.16=2|null|null
@@ -2107,7 +2131,7 @@ Button.a=next|null|null
 Button.9=previous|INPUT HDMI 3|null
 Button.20=info|null|null
 Button.2d=tv|title_list|null
-Button.2e=apps|DEMO MODE|null
+Button.2e=apps|youtube|null
 Button.2f=last_channel|google_play|null
 Button.30=home|netflix|null
 
