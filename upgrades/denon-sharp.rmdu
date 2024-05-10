@@ -1,0 +1,13 @@
+Description=Some Denon-Sharp commands
+Remote.name=URC-7781 Extender A2
+Remote.signature=113A113A
+Notes=Some Denon commands in Denon (Sharp) format
+DeviceType=Amp
+DeviceIndex=6
+SetupCode=1111
+Protocol=00 1C
+Protocol.name=Denon
+ProtocolParms=12
+FixedData=C8
+Function.0.name=dimmer
+Function.0.hex=FB
